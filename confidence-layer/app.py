@@ -248,7 +248,7 @@ def highlight_text(text, signals):
 
 # ── SIDEBAR ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<div style="font-size:18px;font-weight:800;color:#E2EAF4;margin-bottom:4px">🔍 Confidence Layer</div>', unsafe_allow_html=True)
+    st.markdown('<div style="font-size:18px;font-weight:800;color:#E2EAF4;margin-bottom:4px">ChatGPT</div>', unsafe_allow_html=True)
     st.markdown('<div style="font-size:11px;color:#6B8099;margin-bottom:16px">AI Output Evaluation · Beta</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="section-header">Feature</div>', unsafe_allow_html=True)
@@ -269,7 +269,7 @@ with st.sidebar:
     st.divider()
 
     st.markdown('<div class="section-header">How it works</div>', unsafe_allow_html=True)
-    st.markdown('<div style="font-size:11.5px;color:#6B8099;line-height:1.8">1. You ask a question<br>2. AI answers it<br>3. Confidence Layer analyzes the response<br>4. Signals, reasoning &amp; eval questions appear<br>5. You decide what to trust</div>', unsafe_allow_html=True)
+    st.markdown('<div style="font-size:11.5px;color:#6B8099;line-height:1.8">1. You ask a question<br>2. AI answers it<br>3. ChatGPT analyzes the response<br>4. Signals, reasoning &amp; eval questions appear<br>5. You decide what to trust</div>', unsafe_allow_html=True)
 
     st.divider()
 
@@ -281,8 +281,8 @@ with st.sidebar:
         st.rerun()
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
-st.markdown('<div style="font-size:22px;font-weight:800;color:#E2EAF4;margin-bottom:2px">Confidence Layer <span style="background:#0D2040;border:1px solid #1A3D6B;color:#4EA8F8;font-size:11px;font-weight:600;padding:3px 8px;border-radius:20px;vertical-align:middle;margin-left:8px">BETA</span></div>', unsafe_allow_html=True)
-st.markdown('<div style="font-size:13px;color:#6B8099;margin-bottom:16px">Ask anything. The Confidence Layer analyzes every response in real time — surfacing signals, reasoning gaps, and evaluation questions.</div>', unsafe_allow_html=True)
+st.markdown('<div style="font-size:22px;font-weight:800;color:#E2EAF4;margin-bottom:2px">ChatGPT <span style="background:#0D2040;border:1px solid #1A3D6B;color:#4EA8F8;font-size:11px;font-weight:600;padding:3px 8px;border-radius:20px;vertical-align:middle;margin-left:8px">BETA</span></div>', unsafe_allow_html=True)
+st.markdown('<div style="font-size:13px;color:#6B8099;margin-bottom:16px">Ask anything. The ChatGPT analyzes every response in real time — surfacing signals, reasoning gaps, and evaluation questions.</div>', unsafe_allow_html=True)
 
 STARTER_CHIPS = [
     "Should I quit my job for a startup offering 0.5% equity and 30% salary cut?",
